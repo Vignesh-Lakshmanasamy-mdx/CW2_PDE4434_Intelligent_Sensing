@@ -68,5 +68,13 @@ This project aims to detect the color and number of UNO cards using image proces
 
 - To run entire process in one click
     -  Go to Menu bar -> Run -> Run all cells
-    -  ![image](https://github.com/user-attachments/assets/f6112c7f-04c5-4bfd-85e3-4f958c56d09e)
+      ![image](https://github.com/user-attachments/assets/f6112c7f-04c5-4bfd-85e3-4f958c56d09e)
 
+## Executing the Live and Image Prediction with GUI - Uno_card_Detection_with_gui.ipynb
+- To run the Live and image prediction file
+    - Follow the order of the notebook and Run the script in each step
+        - Step 1 : Importing all the required files
+        - Step 2 : color detection program
+        - Step 3 : Preprocessing image
+        - Step 4 : GUI program for live and image detection
+          

@@ -143,5 +143,36 @@ This project aims to detect the color and number of UNO cards using image proces
 - To run entire process in one click
     -  Go to Menu bar -> Run -> Run all cells
 
+## Dataset 
+- Images of card from Number 1 to 9 and symbols are captured. Each label has 16 number of images. For testing seperate image set is used. all the images are maintained in 640 x 480 pixels
+  ![image](https://github.com/user-attachments/assets/43026be2-b6d2-44fd-bd28-9b418925992e)
 
-    
+- Image is taken with webcam, which is 200 mm above from the surface with Mobile flashlight as the light source. for entire data colletion and prediction, the background is maintained as black.
+  ![image](https://github.com/user-attachments/assets/985cc1dc-39b1-49bf-ae49-2848f6a30172)
+
+- Data Sample
+  ![image](https://github.com/user-attachments/assets/5773f7d3-9da3-4414-9a77-b4576dc2d551)
+
+## Limitations
+  - Model works under the defined light condition.
+  - Due to multiple preprocessing the operation becomes slower when it detects 2 cards and also when model use a GUI.
+
+## Future Enhancements
+- Following enhancements can make the model more robust, 
+    - By expanding dataset diversity 
+    - Improving lighting robustness 
+    - Integrating with robotic systems 
+    - Training with complex backgrounds
+
+# Links
+
+Demostration Video - https://youtu.be/dfkLPQgoZr0
+
+# Author
+
+Vignesh Lakshmanasamy
+
+M01026685
+
+M.sc. Robotics, Middlesex University
+
